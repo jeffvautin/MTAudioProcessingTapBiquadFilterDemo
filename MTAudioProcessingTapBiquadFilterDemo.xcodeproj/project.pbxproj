@@ -13,6 +13,7 @@
 		7AB8C69A1CDEB40E00C7E5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB8C6981CDEB40E00C7E5E9 /* Main.storyboard */; };
 		7AB8C69C1CDEB40E00C7E5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB8C69B1CDEB40E00C7E5E9 /* Assets.xcassets */; };
 		7AB8C69F1CDEB40E00C7E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB8C69D1CDEB40E00C7E5E9 /* LaunchScreen.storyboard */; };
+		7AB8C6A81CDEB49A00C7E5E9 /* ProcessedAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AB8C6A71CDEB49A00C7E5E9 /* ProcessedAudioPlayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7AB8C69B1CDEB40E00C7E5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AB8C69E1CDEB40E00C7E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7AB8C6A01CDEB40E00C7E5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB8C6A61CDEB49A00C7E5E9 /* ProcessedAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessedAudioPlayer.h; sourceTree = "<group>"; };
+		7AB8C6A71CDEB49A00C7E5E9 /* ProcessedAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessedAudioPlayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				7AB8C6931CDEB40E00C7E5E9 /* AppDelegate.m */,
 				7AB8C6951CDEB40E00C7E5E9 /* ViewController.h */,
 				7AB8C6961CDEB40E00C7E5E9 /* ViewController.m */,
+				7AB8C6A61CDEB49A00C7E5E9 /* ProcessedAudioPlayer.h */,
+				7AB8C6A71CDEB49A00C7E5E9 /* ProcessedAudioPlayer.m */,
 				7AB8C6981CDEB40E00C7E5E9 /* Main.storyboard */,
 				7AB8C69B1CDEB40E00C7E5E9 /* Assets.xcassets */,
 				7AB8C69D1CDEB40E00C7E5E9 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB8C6A81CDEB49A00C7E5E9 /* ProcessedAudioPlayer.m in Sources */,
 				7AB8C6971CDEB40E00C7E5E9 /* ViewController.m in Sources */,
 				7AB8C6941CDEB40E00C7E5E9 /* AppDelegate.m in Sources */,
 				7AB8C6911CDEB40E00C7E5E9 /* main.m in Sources */,
